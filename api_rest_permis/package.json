@@ -1,0 +1,25 @@
+{
+  "name": "api_rest_permis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "mysql2": "^2.3.3",
+    "sha1": "^1.1.1",
+    "url": "^0.11.0",
+    "uuid": "^9.0.0"
+  }
+}

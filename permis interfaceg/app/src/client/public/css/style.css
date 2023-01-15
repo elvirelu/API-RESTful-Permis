@@ -1,0 +1,15 @@
+.bgnavbarperso {
+    background-color: aliceblue !important;
+}
+
+.bgnavbarperso li a{
+color: black !important;
+}
+
+#formAnnee{
+    display: none;
+}
+
+ul li{
+    margin-left: 35px;
+}
