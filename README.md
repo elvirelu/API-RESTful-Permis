@@ -25,8 +25,7 @@ prénom, courriel et mot de passe) et recevront une clé (générée par sha1)
 Cette clé est comme réponse à enregistrement de membre.
 
 Lorsqu’un membre désire obtenir la liste de vos permis il va envoyer une
-requête par get de la manière suivante
-localhost :8282/permis?apiKey=la clé de l’utilisateur
+requête par get de la manière suivante: localhost:8181/permis?apiKey=la clé de l’utilisateur
 
 Lorsque la requête va tomber dans la route du serveur app.get("/permis", … )
 la donnée de apiKey est récupéré et cette clé est validé dans la table membres. Si la clé existe, 
