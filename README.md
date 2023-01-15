@@ -3,7 +3,7 @@
 
 **Description**: Le projet est découpé en deux parties: Permis Interface Graphic et API RESTful Permis
 
-**API RESTful Permis**
+Patie 1: API RESTful Permis
 
 Je crée un serveur Node avec express, un controleurPermis et un modelPermis
 qui s’occupe de la base de données (MVC-DAO). J'utilise les routes
@@ -18,7 +18,7 @@ qui s’occupe de la base de données (MVC-DAO). J'utilise les routes
 
 Les réponses de l’API seront retournées au client en format JSON.
 
-**Site Web Permis**
+Patie 2: Site Web Permis
 
 Pour pouvoir utiliser mon api les membres doivent créer un compte sur mon site (nom,
 prénom, courriel et mot de passe) et recevront une clé (générée par sha1)
@@ -33,5 +33,6 @@ la donnée de apiKey est récupéré et cette clé est validé dans la table mem
 la liste des permis est retourné, sinon un message explicite est retourné
 pour que le membre vérifie sa clé ou qu’il crée un compte.
 
-**Utilisation**: Il faut démarer Permis Interface Graphic sur la port 8181 et puis démarer API RESTful Permis sur la port 4000. 
-Vous devez vous inscire et faire la connection avec votre compte. Et puis vous pouvez faire CRUD sur permis dans le site web.
+**Utilisation**: Il faut démarer Permis Interface Graphic sur la port 8181 et démarer API RESTful Permis sur la port 4000.
+
+Vous devez vous inscrire et faire la connection avec votre compte. Ensuite, vous pouvez faire CRUD sur permis dans le site web.
